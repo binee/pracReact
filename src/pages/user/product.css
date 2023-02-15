@@ -1,0 +1,122 @@
+.ProductFormCard__Container{
+
+    color:#fff;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 28px;
+}
+.card-body{
+    margin: 20px;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 25px;
+    /* background: #141b23; */
+}
+
+.form-field{
+    width:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:8px;
+}
+
+.form-control{
+    background:#202a35;
+    border: 0;
+}
+
+input ,textarea{
+    color:black;
+}
+
+.form-control:onfocus{
+    outline:invert;
+}
+
+hr{
+    margin-bottom: 30px;
+    margin-top:5px;
+}
+
+.btn-primary{
+    border-radius: 4px;
+    border: none;
+    background-color:#1153c8 !important;
+    border: 0 !important;
+    padding: 7px;
+    font-weight: 600;
+    font-size:16px ;
+    width: 100%;
+    cursor: pointer;
+}
+.App {
+    background:#0d1112;
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  .form_container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .data_table_container{
+    border-radius: 5px;
+    color: #fff;
+    background: #141b23;
+    padding: 35px;
+    margin-top: 50px;
+  }
+  
+  .data_table_container .formControl {
+    background: #fff;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    color: #000;
+    outline: 0 !important;
+    position: relative;
+    z-index: 999;
+  }
+  
+  .data_table_container header {
+    margin-top: -50px;
+  }
+  
+  .data_table_container h4 {
+    position: relative;
+    z-index: 9;
+  }
+  .paginationBttns {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 2% 0;
+  }
+  .paginationBttns a {
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin: 0 5px;
+  }
+  .paginationActive {
+    color: red;
+  }
+  .hBoifs {
+    padding: 2px;
+    color: inherit;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: rotate(180deg);
+  }
